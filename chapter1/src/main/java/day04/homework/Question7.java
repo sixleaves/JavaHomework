@@ -14,15 +14,15 @@ public class Question7 {
     public static void main(String[] args) {
 
         int totalLines = 5;
-        int numStar = totalLines - 2;
+        int numStar = 0;
 
         for (int i = 0; i < 5; i++) {
 
             if (i > totalLines / 2) {
 
                 numStar = totalLines - 2*(i - totalLines / 2);
-                int numLeftBlack = (totalLines - numStar) / 2;
-                printBlank(numLeftBlack);
+                int numLeftBlank = (totalLines - numStar) / 2;
+                printBlank(numLeftBlank);
                 for (int j = 0; j <numStar;j++)
                     System.out.print("*");
                 System.out.print("\n");
@@ -30,8 +30,8 @@ public class Question7 {
             }else {
 
                 numStar = 2 * i + 1;
-                int numLeftBlack = (totalLines - numStar) / 2;
-                printBlank(numLeftBlack);
+                int numLeftBlank = (totalLines - numStar) / 2;
+                printBlank(numLeftBlank);
                 for (int j = 0; j < numStar;j++)
                     System.out.print("*");
                 System.out.print("\n");
