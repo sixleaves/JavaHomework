@@ -37,7 +37,7 @@ public class Question3 {
             boolean isLeap= isLeapYear(year);
             if (isLeap) dayOfMonths[1] = 29;
 
-            int passDays = totalDays[month - 1] + day + (isLeap == true?0:1);
+            int passDays = totalDays[month - 1] + day + (isLeap == true?1:0);
             System.out.println(String.format("%d年 %d月 %d号 是第 %d 天", year,month, day, passDays));
         }
     }
