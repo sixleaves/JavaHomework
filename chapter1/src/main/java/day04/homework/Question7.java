@@ -13,10 +13,10 @@ public class Question7 {
 
     public static void main(String[] args) {
 
-        int totalLines = 5;
+        int totalLines = 11;
         int numStar = 0;
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < totalLines; i++) {
 
             if (i > totalLines / 2) {
 
