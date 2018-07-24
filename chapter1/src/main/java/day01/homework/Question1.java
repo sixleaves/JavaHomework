@@ -4,6 +4,8 @@ public class Question1 {
 
     public static void main(String[] args) {
 
+
+
         String name = "李小璐";
         int age = 20;
         double score = 98.5;

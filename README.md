@@ -8,3 +8,5 @@ Java家庭作业练习
 
 [day06_homework](https://github.com/sixleaves/JavaHomework/tree/master/chapter1/src/main/java/day06/homework)
 
+[day07_homework](https://github.com/sixleaves/JavaHomework/tree/master/chapter1/src/main/java/day07/homework)
+
