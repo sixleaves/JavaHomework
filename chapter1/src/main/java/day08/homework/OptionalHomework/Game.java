@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Game {
 
+
     private int[][] win = {
             {0, -1, 1},
             {1, 0, -11},
@@ -13,7 +14,6 @@ public class Game {
     private String[] computerNames = {"刘备", "孙权", "曹操"};
     private Scanner input = new Scanner(System.in);
 
-
     private StringBuilder sb = new StringBuilder();
 
     public Player getFirstPlayer() {
@@ -21,6 +21,7 @@ public class Game {
     }
 
     public void setFirstPlayer(Player firstPlayer) {
+
         this.firstPlayer = firstPlayer;
     }
 

@@ -12,3 +12,5 @@ Java家庭作业练习
 
 [day08_homework](https://github.com/sixleaves/JavaHomework/tree/master/chapter1/src/main/java/day08/homework)
 
+[day09_homework](https://github.com/sixleaves/JavaHomework/tree/master/chapter1/src/main/java/day09/homework)
+
