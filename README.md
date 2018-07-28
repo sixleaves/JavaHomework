@@ -14,5 +14,5 @@ Java家庭作业练习
 
 [day09_homework](https://github.com/sixleaves/JavaHomework/tree/master/chapter1/src/main/java/day09/homework)
 
-[项目二_客户信息管理系统](https://github.com/sixleaves/JavaHomework/tree/master/chapter1/src/main/java/day09/customer_info_system)
+[项目二_客户信息管理系统](https://github.com/sixleaves/JavaHomework/tree/master/chapter1/src/main/java/day09/customerinfosystem)
 
