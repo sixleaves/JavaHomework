@@ -1,4 +1,4 @@
-package day09.customer_info_system;
+package day09.customerinfosystem;
 
 public class Constant {
 
@@ -9,7 +9,7 @@ public class Constant {
     public static final String DELETE_CUSTOMER = "删除客户";
     public static final String CUSTOMER_LIST = "客户列表";
     public static final String EXIT = "退\t出";
-    public static final String PLEASE_INPUT = "请选择(1-5):";
+    public static final String PLEASE_SELECT_MENU_NUMBER = "请选择(1-5):";
 
     public static final String ADD_FINISHED = "添加完成";
     public static final String ADD_FAILED = "添加失败";
@@ -30,10 +30,15 @@ public class Constant {
     public static final String EMAIL = "邮箱";
     public static final String CUSTOMER_ID = "编号";
 
+    public static final String TAB = "\t";
+    public static final String NEXT_LINE = "\n";
+
+    public static final String PLEASE_SELECT_CUSTOMER_ID = "请选择待删除客户编号(-1)退出:";
+
     public static String getTab(int num) {
         StringBuilder sb= new StringBuilder();
         for (int i = 0; i < num; i++) {
-            sb.append("\t");
+            sb.append(TAB);
         }
         return sb.toString();
     }

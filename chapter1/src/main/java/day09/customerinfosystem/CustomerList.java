@@ -1,4 +1,4 @@
-package day09.customer_info_system;
+package day09.customerinfosystem;
 
 public class CustomerList {
 
@@ -64,6 +64,7 @@ public class CustomerList {
     }
 
     public Customer[] getAllCustomers() {
+
         return customers;
     }
 

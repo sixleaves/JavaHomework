@@ -1,4 +1,4 @@
-package day09.customer_info_system;
+package day09.customerinfosystem;
 
 import java.util.*;
 
